@@ -6,21 +6,23 @@ const RESOURCES = {
   "assets/AssetManifest.json": "cbc53aae578e2a642eeb1fb80e583f99",
 "assets/assets/images/logo.png": "6c6019d14d7d839528a47052cb6521e7",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
-"assets/NOTICES": "2ceedb153a9ddf191c47e7cb8b46fda6",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/NOTICES": "d79c565da6163b81a92034b14de86ee6",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/shaders/ink_sparkle.frag": "7561d987a3a8475cf57f40bad2c1ea5d",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
 "canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "567007e59a3f18606a1e5e461c67a2a6",
-"/": "567007e59a3f18606a1e5e461c67a2a6",
-"main.dart.js": "501e3f2bbf66957ba335815be20fa91b",
+"index.html": "308227807758e29f2bfcd7b64995c807",
+"/": "308227807758e29f2bfcd7b64995c807",
+"main.dart.js": "147878f96f8e32f0087c2d3f00079073",
 "manifest.json": "7c7fb7e3e492e95712755cd35ed29397",
 "version.json": "683acfbca6acf330b3afae3afea6cc4d"
 };
@@ -28,10 +30,8 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
